@@ -1,0 +1,40 @@
+@keyframes blink-animation{
+    0% { visibility: visible;}
+    50% { visibility: hidden;}
+    100% {visibility: visible;}
+}
+
+
+.blinking {
+    animation: blink-animation 1s linear infinite;
+}
+
+
+body{
+    color: white;
+    background-color: black;
+}
+
+
+body h1{
+    font-size: 60px;
+    text-indent: 10%;
+    line-height: 39pt;
+    
+    
+}
+
+
+body p#fragenteil {
+    font-size: 35px;
+    padding-left: 80px;
+    word-spacing: 3pt;
+    background-color: black;
+}
+
+
+body #Logo{
+    position: absolute;
+    top: 60px;
+    right: 50px;
+}
